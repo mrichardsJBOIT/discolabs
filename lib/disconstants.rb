@@ -4,8 +4,8 @@ class Disconstants
   GITHUB_PROFILE = 'https://github.com/mrichardsJBOIT/'.freeze
   LINKED_IN_PROFILE = 'https://www.linkedin.com/in/mark-richards-03180999/'.freeze
   DISCO_API = 'https://jobs.discolabs.app/api/v1/applications'.freeze
-  CLIENT_ID = 'mrichards@outlook.com.au'.freeze
-
+  # CLIENT_ID = 'mrichards@outlook.com.au'.freeze
+  CLIENT_ID = 'david@discolabs.com'.freeze
 
   POINTS = { 'a' => 0, 'b' => 1, 'c' => 7, 'd' => 8, 'e' => 4,
              'f' => 0, 'g' => 1, 'h' => 2, 'i' => 8, 'j' => 4,

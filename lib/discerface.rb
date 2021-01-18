@@ -10,6 +10,23 @@ class Discerface
                 :linked_in_profile, :phone_number, :role_id, :api_client_id,
                 :secret
 
+  def payload_dc
+    {
+      "data": {
+        "type": "application",
+        "attributes": {
+          "first_name": "David",
+          "last_name": "Bird",
+          "role": "mid-level-developer",
+          "cover_letter": "Disco is cool.",
+          "cv_url": "https://example.com/cv.pdf",
+          "github_profile": "https://github.com/me",
+          "linked_in_profile": "https://www.linkedin.com/in/me",
+          "disco_score": 82
+        }
+      }
+    }
+  end
   def payload
     {
       "data": {
@@ -38,8 +55,12 @@ class Discerface
   end
 
   def signature
-    hmac = OpenSSL::HMAC.hexdigest("SHA256", @secret, payload.to_s)
-    base = Base64.strict_encode64(hmac)
+    hmac = OpenSSL::HMAC.digest("SHA256", @secret, payload_dc.to_s)
+    puts hmac
+    digest = OpenSSL::Digest.new('sha256')
+    hmac1 = OpenSSL::HMAC.digest(digest, @secret, payload_dc.to_s)
+    puts hmac1
+    base = Base64.strict_encode64(hmac1)
     puts "\nBase...\n\n"
     puts base
     base
@@ -50,14 +71,13 @@ class Discerface
     http = Net::HTTP.new(uri.host, uri.port)
     http.use_ssl = true
     http.verify_mode = OpenSSL::SSL::VERIFY_NONE
-    puts "Headers... \n#{header}"
+    puts "REQUEST HEADERS::\n#{JSON.pretty_generate(header)} ---- \n\n"
     request = Net::HTTP::Post.new(uri.request_uri, header)
     request.body = payload.to_json
-    puts "Body...\n"
-    puts request.body
-    # response = http.request(request)
-    # puts "RESPONSE::\n#{response} ---- \n\n"
-    # response
+    puts "REQUEST BODY::\n#{JSON.pretty_generate(request.body)} ---- \n\n"
+    response = http.request(request)
+    puts "RESPONSE::\n#{JSON.pretty_generate(response.body)} ---- \n\n"
+    response
   end
 
 end
