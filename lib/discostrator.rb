@@ -20,6 +20,7 @@ class Discostrator
     api = set_api(cover_letter, calculator.disco_score)
     puts "About send...hold tight #{Time.now}"
     response = api.send_data
+    # response = api.lets_party
     puts "\n\n..and the survey says....\n"
     puts response
     puts "\n *** All done at...#{Time.now}"

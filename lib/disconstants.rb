@@ -4,7 +4,9 @@ class Disconstants
   CV_URL = 'https://github.com/mrichardsJBOIT/discolabs/blob/main/docs/MarkRichards_CV_2021.pdf'.freeze
   GITHUB_PROFILE = 'https://github.com/mrichardsJBOIT/'.freeze
   LINKED_IN_PROFILE = 'https://www.linkedin.com/in/mark-richards-03180999/'.freeze
-  DISCO_API = 'https://jobs.discolabs.app/api/v1/applications'.freeze
+  DISCO_API = 'https://jobs.discolabs.app/api/v1/applications/'.freeze
+  # DISCO_API = 'https://demo0334924.mockable.io/discolabs'.freeze
+  # DISCO_API = 'http://localhost:8000/applications'.freeze
   CLIENT_ID = 'mrichards@outlook.com.au'.freeze
   # CLIENT_ID = 'david@discolabs.com'.freeze
 
