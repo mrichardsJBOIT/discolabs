@@ -1,0 +1,87 @@
+/bin/bash -c "/usr/share/rvm/bin/rvm ruby-2.7.2 do /usr/share/rvm/rubies/ruby-2.7.2/bin/ruby /home/mark/environment/sandpit/discolabs/lib/discostrator.rb 0404557261 e0198f51-88d4-4484-99f8-f2435608dc95 qx2eU8G1ijSyExhEGKrHxHgT"
+qx2eU8G1ijSyExhEGKrHxHgT
+Disco Score = 3801
+About send...hold tight 2021-01-18 19:02:39 +1100
+
+Base...
+
+nfJQ5ZcdbRAFJhCcjVfjcbcv6NBWKrBzB6P3emABwSc=
+REQUEST HEADERS::
+{"Content-Type":"text/json","Accept":"application/json","Authorization":"hmac mrichards@outlook.com.au:nfJQ5ZcdbRAFJhCcjVfjcbcv6NBWKrBzB6P3emABwSc="}  
+
+
+Base...
+
+nfJQ5ZcdbRAFJhCcjVfjcbcv6NBWKrBzB6P3emABwSc=
+{
+	"data": {
+		"attributes": {
+			"cover_letter": "# Cover Letter For Disco Labs\n\n---\n## Hello\nDear Disco Labs,  \nMark here,  I hope you're well?  I also hope my copy writing skills are not as important as my technical and business skills?\n### Quick Brown Fox\nThis challenge seems quite fun and an interesting and reminds me of a challenge to get all letters of the alphabet into a paragraph, which can be done using the sentence  \n\n> the quick brown fix jumps over the lazy dog\n### About Me\nWell, I enjoy technical challenges, I have worked a lot for retail, wholesale and FMCG type organisations.  Outside of work I play golf and am focusing on general fitness so I can get back into surfing.\n### Why Disco Labs?\nGiven that I like working in IT and I'd like to use my existing experience and learn new skills, Disco Labs seems to be the organisation to do that.  A quality technology company that provides services and products to business.  \n### Technical Artefacts\nI will create a non production script to calculate my **DISCO SCORE**.  Which you can find at\n[my GitHub Disco Labs Repo](https://github.com/mrichardsJBOIT/discolabs.git)\n### Thank You\nWhile this cover letter is brief, I hope it is enough for you to invite me to a formal interview.  Thank you for the opportunity to attempt this.  \n  \nMark",
+			"cv_url": "https://github.com/mrichardsJBOIT/discolabs/blob/main/docs/MarkRichards_CV_2021.pdf",
+			"disco_score": 3801,
+			"github_profile": "https://github.com/mrichardsJBOIT/",
+			"linked_in_profile": "https://www.linkedin.com/in/mark-richards-03180999/",
+			"phone_number": "0404557261",
+			"role_id": "e0198f51-88d4-4484-99f8-f2435608dc95"
+		}
+	}
+}
+REQUEST BODY::
+{
+	"data": {
+		"attributes": {
+			"cover_letter": "# Cover Letter For Disco Labs\n\n---\n## Hello\nDear Disco Labs,  \nMark here,  I hope you're well?  I also hope my copy writing skills are not as important as my technical and business skills?\n### Quick Brown Fox\nThis challenge seems quite fun and an interesting and reminds me of a challenge to get all letters of the alphabet into a paragraph, which can be done using the sentence  \n\n> the quick brown fix jumps over the lazy dog\n### About Me\nWell, I enjoy technical challenges, I have worked a lot for retail, wholesale and FMCG type organisations.  Outside of work I play golf and am focusing on general fitness so I can get back into surfing.\n### Why Disco Labs?\nGiven that I like working in IT and I'd like to use my existing experience and learn new skills, Disco Labs seems to be the organisation to do that.  A quality technology company that provides services and products to business.  \n### Technical Artefacts\nI will create a non production script to calculate my **DISCO SCORE**.  Which you can find at\n[my GitHub Disco Labs Repo](https://github.com/mrichardsJBOIT/discolabs.git)\n### Thank You\nWhile this cover letter is brief, I hope it is enough for you to invite me to a formal interview.  Thank you for the opportunity to attempt this.  \n  \nMark",
+			"cv_url": "https://github.com/mrichardsJBOIT/discolabs/blob/main/docs/MarkRichards_CV_2021.pdf",
+			"disco_score": 3801,
+			"github_profile": "https://github.com/mrichardsJBOIT/",
+			"linked_in_profile": "https://www.linkedin.com/in/mark-richards-03180999/",
+			"phone_number": "0404557261",
+			"role_id": "e0198f51-88d4-4484-99f8-f2435608dc95"
+		}
+	}
+}
+
+opening connection to jobs.discolabs.app:443...
+opened
+starting SSL for jobs.discolabs.app:443...
+SSL established, protocol: TLSv1.2, cipher: ECDHE-RSA-AES128-GCM-SHA256
+<- "POST /api/v1/applications HTTP/1.1\r\nContent-Type: text/json\r\nAccept: application/json\r\nAuthorization: hmac mrichards@outlook.com.au:nfJQ5ZcdbRAFJhCcjVfjcbcv6NBWKrBzB6P3emABwSc=\r\nAccept-Encoding: gzip;q=1.0,deflate;q=0.6,identity;q=0.3\r\nUser-Agent: Ruby\r\nConnection: close\r\nHost: jobs.discolabs.app\r\nContent-Length: 1640\r\n\r\n"
+<- "{\"data\":{\"attributes\":{\"cover_letter\":\"# Cover Letter For Disco Labs\\n\\n---\\n## Hello\\nDear Disco Labs,  \\nMark here,  I hope you're well?  I also hope my copy writing skills are not as important as my technical and business skills?\\n### Quick Brown Fox\\nThis challenge seems quite fun and an interesting and reminds me of a challenge to get all letters of the alphabet into a paragraph, which can be done using the sentence  \\n\\n> the quick brown fix jumps over the lazy dog\\n### About Me\\nWell, I enjoy technical challenges, I have worked a lot for retail, wholesale and FMCG type organisations.  Outside of work I play golf and am focusing on general fitness so I can get back into surfing.\\n### Why Disco Labs?\\nGiven that I like working in IT and I'd like to use my existing experience and learn new skills, Disco Labs seems to be the organisation to do that.  A quality technology company that provides services and products to business.  \\n### Technical Artefacts\\nI will create a non production script to calculate my **DISCO SCORE**.  Which you can find at\\n[my GitHub Disco Labs Repo](https://github.com/mrichardsJBOIT/discolabs.git)\\n### Thank You\\nWhile this cover letter is brief, I hope it is enough for you to invite me to a formal interview.  Thank you for the opportunity to attempt this.  \\n  \\nMark\",\"cv_url\":\"https://github.com/mrichardsJBOIT/discolabs/blob/main/docs/MarkRichards_CV_2021.pdf\",\"disco_score\":3801,\"github_profile\":\"https://github.com/mrichardsJBOIT/\",\"linked_in_profile\":\"https://www.linkedin.com/in/mark-richards-03180999/\",\"phone_number\":\"0404557261\",\"role_id\":\"e0198f51-88d4-4484-99f8-f2435608dc95\"}}}"
+-> "HTTP/1.1 422 Unprocessable Entity\r\n"
+-> "Server: Cowboy\r\n"
+-> "Date: Mon, 18 Jan 2021 08:02:40 GMT\r\n"
+-> "Connection: close\r\n"
+-> "X-Frame-Options: SAMEORIGIN\r\n"
+-> "X-Xss-Protection: 1; mode=block\r\n"
+-> "X-Content-Type-Options: nosniff\r\n"
+-> "X-Download-Options: noopen\r\n"
+-> "X-Permitted-Cross-Domain-Policies: none\r\n"
+-> "Referrer-Policy: strict-origin-when-cross-origin\r\n"
+-> "Content-Type: application/json; charset=utf-8\r\n"
+-> "Cache-Control: no-cache\r\n"
+-> "X-Request-Id: 8c79d137-9505-49b7-8072-528746e7716c\r\n"
+-> "X-Runtime: 0.223444\r\n"
+-> "Transfer-Encoding: chunked\r\n"
+-> "Via: 1.1 vegur\r\n"
+-> "\r\n"
+-> "214\r\n"
+reading 532 bytes...
+-> "{\"errors\":[{\"source\":{\"pointer\":\"/data/attributes/cover_letter\"},\"title\":\"Unprocessable entity\",\"detail\":\"cover_letter is missing\",\"status\":\"422\"},{\"source\":{\"pointer\":\"/data/attributes/cv_url\"},\"title\":\"Unprocessable entity\",\"detail\":\"cv_url is missing\",\"status\":\"422\"},{\"source\":{\"pointer\":\"/data/attributes/disco_score\"},\"title\":\"Unprocessable entity\",\"detail\":\"disco_score is missing\",\"status\":\"422\"},{\"source\":{\"pointer\":\"/data/attributes/role_id\"},\"title\":\"Unprocessable entity\",\"detail\":\"role_id is missing\",\"status\":\"422\"}]}"
+read 532 bytes
+reading 2 bytes...
+-> "\r\n"
+read 2 bytes
+-> "0\r\n"
+-> "\r\n"
+Conn close
+RESPONSE::
+"{\"errors\":[{\"source\":{\"pointer\":\"/data/attributes/cover_letter\"},\"title\":\"Unprocessable entity\",\"detail\":\"cover_letter is missing\",\"status\":\"422\"},{\"source\":{\"pointer\":\"/data/attributes/cv_url\"},\"title\":\"Unprocessable entity\",\"detail\":\"cv_url is missing\",\"status\":\"422\"},{\"source\":{\"pointer\":\"/data/attributes/disco_score\"},\"title\":\"Unprocessable entity\",\"detail\":\"disco_score is missing\",\"status\":\"422\"},{\"source\":{\"pointer\":\"/data/attributes/role_id\"},\"title\":\"Unprocessable entity\",\"detail\":\"role_id is missing\",\"status\":\"422\"}]}" 
+
+
+
+..and the survey says....
+#<Net::HTTPUnprocessableEntity:0x00005563c670ae20>
+
+ *** All done at...2021-01-18 19:02:42 +1100
+
+Process finished with exit code 0
