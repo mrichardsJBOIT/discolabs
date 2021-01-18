@@ -9,7 +9,7 @@ This challenge seems quite fun and an interesting and reminds me of a challenge 
 
 > the quick brown fix jumps over the lazy dog
 ### About Me
-Well, I enjoy technical challenges, I have worked a lot for retail, wholesale and FMCG type organisations.  Outside of work I play golf and am focusing on general fitness so I can get back into surfing.  
+Well, I enjoy technical challenges, I have worked a lot for retail, wholesale and FMCG type organisations.  Outside of work I play golf and am focusing on general fitness so I can get back into surfing.
 ### Why Disco Labs?
 Given that I like working in IT and I'd like to use my existing experience and learn new skills, Disco Labs seems to be the organisation to do that.  A quality technology company that provides services and products to business.  
 ### Technical Artefacts

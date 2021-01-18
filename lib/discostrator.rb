@@ -10,6 +10,7 @@ class Discostrator
     @phone_number = args[0]
     @role_id = args[1]
     @secret = args[2]
+    puts @secret
   end
 
   def perform
@@ -18,8 +19,8 @@ class Discostrator
     puts "Disco Score = #{calculator.disco_score}"
     api = set_api(cover_letter, calculator.disco_score)
     puts "About send...hold tight #{Time.now}"
-    response = api.send
-    puts "and the survey says....\n"
+    response = api.send_data
+    puts "\n\n..and the survey says....\n"
     puts response
     puts "\n *** All done at...#{Time.now}"
   end
